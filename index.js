@@ -5,13 +5,11 @@ window.addEventListener('load', ()=> {
 
     var counter = 0;
 
-
     form.addEventListener('submit', (e) => {
         counter++;
         e.preventDefault();
-        const task = counter+' . '+input.value;
+        const task = counter+'.'+input.value;
 
-       
         const task_el = document.createElement('div');
         task_el.classList.add('task');
 
@@ -36,34 +34,6 @@ window.addEventListener('load', ()=> {
 
         const task_action_el = document.createElement('div');
         task_action_el.classList.add('actions');
-
-
-
-
-        // this.FetchAll = function(){
-        //     var data ='';
-
-        //     if(this.tasks.length>0){
-        //         for(i=0;i<this.tasks.length;i++){
-        //         data+='<tr>';
-        //         data+="<td>"+(i+1)+". "+this.task[i]+"</td>";
-        //         data+='</tr>'
-        //     }
-        // }
-        // this.Count(this.tasks.length);
-        // return this.Element.innerHTML =  data
-        // };
-
-        //  this.Count =function(data){
-
-
-        // };
-
-        // app.FetchAll();
-
-
-
-
 
 
         const task_edit_el = document.createElement('button');
