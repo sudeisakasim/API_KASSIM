@@ -1,0 +1,104 @@
+                 	 		    NAME: KASSIM SUDEISA 
+                	   	            ADM:  137501
+                   	       	            COURSE: API
+	
+
+
+// VALIDATION CODE
+
+
+        if(document.getElementById("new-task-input").value.length == 0)
+                {
+                      window.alert("EMPTY! KINDLY ADD A TASK")
+                      return false;
+                }
+
+
+// COUNTER CODE
+
+ 	 var counter = 0;
+
+
+  		  form.addEventListener('submit', (e) => {
+    		    counter++;
+    		    e.preventDefault();
+     		    const task = counter+' . '+input.value;
+
+
+//GIT BASH WORKFLOW
+
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        modified:   index.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ git add .
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ git commit -m "modified index.html and index.js"
+[master 28b814e] modified index.html and index.js
+ 2 files changed, 2 insertions(+), 44 deletions(-)
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 439 bytes | 439.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:sudeisakasim/API_KASSIM.git
+   431c899..28b814e  master -> master
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ git log
+commit 28b814e68672fe3d072a89ed132ab4218b5646d7 (HEAD -> master, origin/master)
+Author: sudeisa kasim <kassimsudeis1@gmail.com>
+Date:   Wed Jun 22 10:36:24 2022 +0300
+
+    modified index.html and index.js
+
+commit 431c8990c26ef415f2b3876a17088f66cd978f70
+Author: sudeisa kasim <kassimsudeis1@gmail.com>
+Date:   Wed Jun 22 10:15:41 2022 +0300
+
+    added this files
+
+kassi@DESKTOP-H4BB3HN MINGW64 ~/Downloads/API_KASSIM (master)
+$ 
+
+
+
+
+
+
+
+
+
+
